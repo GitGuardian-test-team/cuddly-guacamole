@@ -1,0 +1,6 @@
+default_stages: [commit]
+repos:
+  - repo: https://github.com/gitguardian/gg-shield
+    rev: v1.3.0
+    hooks:
+      - id: ggshield
